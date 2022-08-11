@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import HomeBanner from '../src/Components/Home/Banner'
 import Navbar from '../src/Components/Navbar'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <div className='w-8/12 mx-auto'>
         <Navbar/>
+        <HomeBanner/>
       </div>
     </div>
   )
