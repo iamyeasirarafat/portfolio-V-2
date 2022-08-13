@@ -7,10 +7,9 @@ const HomeBanner = () => {
           <p className="text-3xl font-medium text-primary">Hello</p>
         </div>
         <h2
-          style={{ color: "white" }}
-          className=" mt-5 uppercase text-[90px] leading-[120%]  font-bold"
+          className=" mt-5 uppercase text-[90px] leading-[120%] text-white font-bold"
         >
-          I&#8217;m yeasir arafat{" "}
+          I&#8217;m yeasir arafat
         </h2>
         <h6 className="text-3xl text-secondary mt-8">Frontend Developer</h6>
         <div className="flex mt-14 gap-7 items-center">
@@ -22,6 +21,7 @@ const HomeBanner = () => {
       </div>
       <div className="h-[555px] w-[495px]">
         <img
+        alt=''
           className="w-full rounded-tl-[80px] rounded-bl-[80px]"
           src="BannerPic.png"
         />

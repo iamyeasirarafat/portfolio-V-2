@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import HomeBanner from '../src/Components/Home/Banner'
+import WhatIDo from '../src/Components/Home/WhatIDo'
 import Navbar from '../src/Components/Navbar'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <div className='w-8/12 mx-auto'>
         <Navbar/>
         <HomeBanner/>
+        <WhatIDo/>
       </div>
     </div>
   )
