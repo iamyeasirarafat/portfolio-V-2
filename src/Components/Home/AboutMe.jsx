@@ -2,8 +2,8 @@ import { CheckIcon, DownloadIcon } from "../Icons";
 
 const AboutMe = () => {
   return (
-    <div className="flex  mb-52 w-full">
-      <div className="">
+    <div className="flex justify-between  mb-52 w-full">
+      <div className="w-full">
         <div className="mb-11">
           <div className="flex items-center mb-5 gap-[10px]">
             <div className="w-8 h-1 bg-primary"></div>
@@ -12,7 +12,7 @@ const AboutMe = () => {
           <p className="text-2xl text-white font-bold mb-6">
             Better design, <br /> Better experience
           </p>
-          <p className="text-secondary ">
+          <p className="text-secondary w-[50ch]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam a
             natus inventore magni, iusto vitae ut, ullam cupiditate voluptatibus
             laboriosam dicta asperiores eveniet aspernatur amet officiis{" "}
@@ -59,7 +59,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-      <div className="grid w-full grid-cols-2 gap-x-28 ">
+      <div className="grid w-full grid-cols-2 gap-x-16 ">
         <div className="w-[19.375rem] bg-[#d9d9d9] bg-opacity-5 h-[12.5rem] p-4 rounded-xl">
           <img
             className="w-full rounded-xl "
