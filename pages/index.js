@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AboutMe from '../src/Components/Home/AboutMe'
 import HomeBanner from '../src/Components/Home/Banner'
 import WhatIDo from '../src/Components/Home/WhatIDo'
 import Navbar from '../src/Components/Navbar'
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar/>
         <HomeBanner/>
         <WhatIDo/>
+        <AboutMe/>
       </div>
     </div>
   )
