@@ -17,7 +17,7 @@ const HomeBanner = () => {
             Hire Me
           </a>
           <a
-            className="flex gap-1 hover:border-b-0 duration-200 items-center border-b-2 text-primary text-lg"
+            className="flex gap-[6px] hover:border-b-0 duration-200 items-center border-b-2 text-primary text-lg"
             href="#"
           >
             Download CV <DownloadIcon />
