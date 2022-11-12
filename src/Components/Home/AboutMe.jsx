@@ -2,7 +2,7 @@ import { CheckIcon, DownloadIcon } from "../Icons";
 
 const AboutMe = () => {
   return (
-    <div className="flex justify-between  mb-52 w-full">
+    <div id="about_me" className="flex justify-between  mb-52 w-full">
       <div className="w-full">
         <div className="mb-11">
           <div className="flex items-center mb-5 gap-[10px]">

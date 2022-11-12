@@ -2,7 +2,7 @@ import { SkillIcon } from "../Icons";
 
 const WhatIDo = () => {
   return (
-    <div className="flex mb-52 gap-24 items-center">
+    <div id="what_i_do" className="flex mb-52 gap-24 items-center">
       <div className="flex gap-16 items-center">
         <div>
           <div className="flex items-center w-[18.75rem] h-[10.625rem] rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] gap-5 bg-[#171F38]">

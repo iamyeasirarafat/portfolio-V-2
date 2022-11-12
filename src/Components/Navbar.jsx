@@ -3,20 +3,20 @@ import { PhoneIcon } from "./Icons";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center ">
+    <div className="flex sm:justify-between sticky sm:relative top-0 bg-[#0e1630] py-2 z-50  justify-center items-center ">
       <div className="w-52">
         <img className="w-full" src="logo1.png" alt="logo" />
       </div>
-      <div className="flex gap-12 py-11 items-center">
-        <ul className="flex text-secondary gap-14 border-r">
+      <div className="sm:flex hidden xl:gap-6 gap-2 2xl:gap-12 py-11 items-center">
+        <ul className="lg:flex hidden  text-secondary xl:gap-10 gap-6 2xl:gap-14 border-r">
           <li>
             <span className="hover:text-primary duration-300 text-lg font-medium">
-              <Link href="#">Home</Link>
+              <Link href="#home">Home</Link>
             </span>
           </li>
           <li>
             <span className="hover:text-primary duration-300 text-lg font-medium">
-              <Link href="#">About</Link>
+              <Link href="#about_me">About</Link>
             </span>
           </li>
           <li>
@@ -26,12 +26,12 @@ const Navbar = () => {
           </li>
           <li>
             <span className="hover:text-primary duration-300 text-lg font-medium">
-              <Link href="#">Portfolio</Link>
+              <Link href="#portfolio">Portfolio</Link>
             </span>
           </li>
           <li>
             <span className="hover:text-primary duration-300 text-lg font-medium pr-14  ">
-              <Link href="#">Contact Me</Link>
+              <Link href="#contact">Contact Me</Link>
             </span>
           </li>
         </ul>
